@@ -1,0 +1,7 @@
+<form [formGroup]="formdata" (ngSubmit)="OnClickSubmit(formdata.value)">
+    <input name="emailid" placeholder="emailid" formControlName="emailid">
+    <input name="psswd" placeholder="psswd" formControlName="psswd">
+    <input type="submit" value="LogIn">
+
+
+</form>
